@@ -18,7 +18,11 @@ if (!BOT_TOKEN) {
 }
 
 const bot = new Bot(BOT_TOKEN);
-const DB_FILE = path.join(__dirname, "bot_database.json");
+const DATA_DIR = path.join(__dirname, "data");
+if (!fs.existsSync(DATA_DIR)) {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+}
+const DB_FILE = path.join(DATA_DIR, "bot_database.json");
 
 let activeOtpCheckers = {};
 let botInfo = null;
