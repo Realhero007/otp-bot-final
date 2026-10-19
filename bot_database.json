@@ -1,8 +1,18 @@
 {
   "numbers": [],
-  "admins": [6916044653],
+  "admins": [
+    6916044653
+  ],
   "users": [],
-  "services": ["Telegram", "WhatsApp", "Imo", "Instagram", "Facebook", "TikTok", "Uber"],
+  "services": [
+    "Telegram",
+    "WhatsApp",
+    "Imo",
+    "Instagram",
+    "Facebook",
+    "TikTok",
+    "Uber"
+  ],
   "serviceRates": {},
   "balances": {},
   "withdrawals": [],
@@ -13,6 +23,5 @@
   ],
   "checkDelay": 4000,
   "numberQty": 1,
-  "customOtpMsg": "🚀 <b>FAST OTP RECEIVED!</b>\n\n📱 <code>{service}</code> | {flag} <code>{country}</code> | 📞 <code>+{phone}</code>\n\n💬 <i>\"{message}\"</i>\n\n👉 <code>{code}</code> <i>(Tap to Copy)</i>\n\n💰 <b>+৳{reward} BDT added to your balance!</b>"
-}
+  "customOtpMsg": "🚀 <b>NEW OTP RECEIVED!</b>\n\n📱 <code>{service}</code> | {flag} <code>{country}</code> | 📞 <code>+{phone}</code>\n\n💬 <i>\"{message}\"</i>\n\n👉 <code>{code}</code> <i>(Tap to Copy)</i>\n\n💰 <b>+৳{reward} BDT added to your balance!</b>"
 }
