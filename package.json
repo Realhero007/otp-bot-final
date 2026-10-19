@@ -1,16 +1,16 @@
 {
   "name": "telegram-otp-bot",
   "version": "1.0.0",
-  "description": "Node.js Telegram OTP Bot",
+  "description": "Telegram OTP Delivery and Management Bot",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
     "grammy": "^1.35.0",
-    "undici": "^7.4.0"
+    "undici": "^6.21.0"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=18.0.0"
   }
 }
